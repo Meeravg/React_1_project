@@ -1,0 +1,49 @@
+.footer{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+    height: 750px;
+    background-color: rgb(238,244,255);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.box{
+    /* border: 1px solid yellow; */
+    margin-top: 30px;
+}
+.box > h3 {
+    margin: 35px;
+}
+.box > a{
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+    margin-left: 25px;
+    display: block;
+    padding: 7px;
+}
+.H3{
+    margin-left: 35px;
+}
+.flex{
+    display: flex;
+    width: 200px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+   height: 35px;
+}
+.grid{
+
+    display: flex;
+    
+    /* border: 1px solid pink; */
+    width:140%;
+    margin-left: 35px;
+    margin-top: 30px;
+    height: 40px;
+    gap: 5px;
+    justify-content: space-between;
+}
+.grid > div >img {
+    height: 20px;
+}
